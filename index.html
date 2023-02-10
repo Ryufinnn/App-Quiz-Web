@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--? Font style, Effect scroll, dan Animasi CDN yang digunakan -->
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="./lightbox/dist/css/lightbox.css">
+
+    <!-- AOS Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- link CSS style -->
+    <link rel="stylesheet" type="text/css" href="./dist/css/style.css">
+    <!--? Font style, Effect scroll, dan Animasi CDN yang digunakan -->
+
+    <title>Quiz App</title>
+    <!--? Internal CSS Background Style -->
+    <style>
+        body {
+            background-image: url(./images/background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
+        }
+    </style>
+    <!--? Internal CSS Background Style -->
+
+</head>
+<body id="home">
+    
+    <!--? navbar -->
+    <div class="navbar animate__animated animate__fadeInDown">
+        <div class="container">
+            <div class="box-navbar">
+                <div class="brand">
+                    <h1>RPL PROJECT</h1>
+                </div>
+                <div class="navigation">
+                    <ul>
+                        <li>
+                            <a href="#home">Beranda</a>
+                            <i class="fa-solid fa-home"></i>
+                        </li>
+                        <li>
+                            <a href="#about">Tentang Aplikasi</a>
+                            <i class="fa-solid fa-info-circle"></i>
+                        </li>
+                        <li>
+                            <a href="#gallery">Gallery</a>
+                            <i class="fa-solid fa-image"></i>
+                        </li>
+                        <li>
+                            <a href="#group">Kelompok Project</a>
+                            <i class="fa-solid fa-person-circle-question"></i>
+                        </li>
+                        <li>
+                            <a href="#quiz">Quiz</a>
+                            <i class="fa-solid fa-face-grin-squint"></i>
+                        </li>
+                    </ul>
+                    <!-- Icon Close -->
+                    <i class="ri-close-line"></i>
+                </div>
+                <!-- Icon Menu Bar -->
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+    </div>
+    <!--? navbar -->
+
+    <!--? page -->
+    <div class="page">
+        <div class="container">
+            <div class="box-page">
+                <div class="box animate__animated animate__fadeInLeft">
+                    <h1>RPL Final Project Aplikasi Quiz Berbasis Web</h1>
+                    <p>Selamat datang di Website kami
+                        disini kita akan akan belajar
+                        dan menjawab quiz dengan waktu
+                        yang di berikan cuma dari 10 detik!!!
+                    </p>
+                    <button class="btn1"><a style="text-decoration: none; color: white;" href="/components/quiz.html">Mulai Quiz</a></button>
+                </div>
+                <div class="box animate__animated animate__zoomIn">
+                    <img src="./images/pageicon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--? page -->
+
+    <!--? about -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="box-about">
+                <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="/images/about.jpg" class="image1" alt="">
+                    <img src="/images/about2.jpg" class="image2" alt="">
+                    <img src="/images/about3.jpg" class="image3" alt="">
+                    <img src="/images/about4.jpg" class="image4" alt="">
+                </div>
+                <div class="box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                    <h1>Tentang Aplikasi</h1>
+                    <p>Aplikasi Quiz Berbasis Wesite ini dibuat untuk memenuhi
+                        tugas kuliah project akhir dari mata kuliah Rekayasa Perangkat Lunak.
+                        Adapun perencanaan dalam proses pembuatan Aplikasi Quiz Berbasis Website, 
+                        seperti Menentukan tempat studi kasus, Mengumpulkan data, Melakukan survei, 
+                        Analisa, Desain, Implementasi dan Pengujian</p>
+                    <button>Selengkapnya</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--? about -->
+
+    <!--? gallery -->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <div class="box-gallery">
+                <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Gallery</h1>
+                    <p>Ini adalah bagian yang berisi foto-foto dokumentasi selama proses pembuatan tugas
+                        kuliah project akhir dari mata kuliah Rekayasa Perangkat Lunak.</p>
+                </div>
+                <div class="box">
+                    <a href="/images/gallery.png" 
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="/images/gallery.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                    <a href="/images/gallery2.png"
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                        <img src="/images/gallery2.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                    <a href="/images/gallery3.png"
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="150">
+                        <img src="/images/gallery3.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                    <a href="/images/gallery4.png"
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="/images/gallery4.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                    <a href="/images/gallery5.png"
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+                        <img src="/images/gallery5.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                    <a href="/images/gallery6.png"
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="/images/gallery6.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                    <a href="/images/gallery7.png"
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="350">
+                        <img src="/images/gallery7.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                    <a href="/images/gallery8.png"
+                    data-lightbox="gallery" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="/images/gallery8.png" alt="">
+                        <div class="bg-img">Lihat Gambar</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--? gallery -->
+
+    <!--? group -->
+    <div class="group" id="group">
+        <div class="container">
+            <div class="box-group">
+                <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Kelompok Project</h1>
+                    <p>Untuk menyelesainkan tugas Project akhir dari mata kuliah Rekayasa Perangkat Lunak,
+                        berikut adalah nama anggota kelompok dan tugasnya masing-masing.</p>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                            <img src="/images/finoprofil.gif" alt="">
+                            <p>Nama : FINO CHRISLING COLLING<br/>
+                                Nim : 18013021<br/>
+                                Kelas : A<br/>
+                                Angkatan : 2018<br/>
+                            </p>
+                            <h4>Person</h4>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <img src="/images/profilp3.jpg" alt="">
+                            <p>Nama : HIZKIA CHRISTIAN M. TUAGE<br/>
+                                Nim : 18013081<br/>
+                                Kelas : A<br/>
+                                Angkatan : 2018<br/>
+                            </p>
+                            <h4>Person</h4>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="/images/profilp2.jpg" alt="">
+                            <p>Nama : CHRISTIAN GERALDO SABANARI<br/>
+                                Nim : 21013036<br/>
+                                Kelas : B<br/>
+                                Angkatan : 2021<br/>
+                            </p>
+                            <h4>Person</h4>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/profilg1.jpg" alt="">
+                            <p>Nama : JEYN HEIDDY K NUSALAWO<br/>
+                                Nim : 22113037<br/>
+                                Kelas : B<br/>
+                                Angkatan : 2022
+                            </p>
+                            <h4>Person</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--? group -->
+
+    <!--? Footer -->
+    <footer>
+        <p>&copy; RPL Final Project kelompok</p>
+    </footer>
+    <!--? Footer -->
+
+    <!-- Lightbox script JS-->
+    <script src="./lightbox/dist/js/lightbox-plus-jquery.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <!-- Script JS -->
+    <script src="./dist/js/script.js"></script>
+</body>
+</html>

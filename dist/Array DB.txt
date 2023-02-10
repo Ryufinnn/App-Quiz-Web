@@ -1,0 +1,115 @@
+// 10 questions with options and answer array
+const quizArray = [
+    {
+        id: "0",
+        question: "Siapa Presiden Pertama Indonesia?",
+        options: [
+            "Soekarno",
+            "Soeharto",
+            "Prabowo",
+            "Joko Widodo",
+        ],
+        correct: "Soekarno",
+    },
+    {
+        id: "1",
+        question: "Apa Warna Bendera Indonesia?",
+        options: [
+            "Biru dan Putih",
+            "Hijau dan Biru",
+            "Putih dan Merah",
+            "Merah dan Putih",
+        ],
+        correct: "Merah dan Putih",
+    },
+    {
+        id: "2",
+        question: "Kelelawar tidur pada Waktu?",
+        options: [
+            "Siang hari",
+            "Pagi hari",
+            "Malam hari",
+            "Sore hari",
+        ],
+        correct: "Siang hari",
+    },
+    {
+        id: "3",
+        question: "Monyet suka makan?",
+        options: [
+            "Pisang",
+            "Durian",
+            "Rambutan",
+            "Semangka",
+        ],
+        correct: "Pisang",
+    },
+    {
+        id: "4",
+        question: "15 + 20 x 2 - 5 : 5 =?",
+        options: [
+            "37",
+            "40",
+            "25",
+            "54",
+        ],
+        correct: "54",
+    },
+    {
+        id: "5",
+        question:
+        "Bangun pagi ku terus mandi tidak lupa mengosok_______?",
+        options: [
+            "Mata",
+            "Tangan",
+            "Gigi",
+            "Kaki",
+        ],
+        correct: "Gigi",
+    },
+    {
+        id: "6",
+        question: "2 + 5 =?",
+        options: [
+            "4",
+            "11",
+            "8",
+            "7",
+        ],
+        correct: "7",
+    },
+    {
+        id: "7",
+        question: "20 - 7 =?",
+        options: [
+            "8",
+            "11",
+            "13",
+            "17",
+        ],
+        correct: "13",
+    },
+    {
+        id: "8",
+        question: "10 x 5 =?",
+        options: [
+            "30",
+            "50",
+            "60",
+            "25",
+        ],
+        correct: "50",
+    },
+    {
+        id: "9",
+        question: "5 + 5 =?",
+        options: [
+            "10",
+            "7",
+            "9",
+            "15",
+        ],
+        correct: "10",
+    },
+
+];

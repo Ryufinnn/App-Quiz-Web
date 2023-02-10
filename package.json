@@ -1,0 +1,17 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/poppins": "^4.5.10",
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "remixicon": "^2.5.0"
+  }
+}
